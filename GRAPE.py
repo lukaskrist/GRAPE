@@ -17,7 +17,7 @@ class GRAPE:
         d = H0.shape[0]
         dt = T/N
         assert H0.shape == (d,d), 'H0 must be square matrix'
-        assert Hc.shape == (M,d,d), 'Hc dimension mismatch'
+        #assert Hc.shape == (M,d,d), 'Hc dimension mismatch'
         assert pulse.shape == (M,N), 'pulse dimension mismatch'
         assert psi0.shape == (d,), 'psi0 mismatch'
         assert psi_target.shape == (d,), 'psi_target mismatch'
