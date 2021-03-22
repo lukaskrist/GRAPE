@@ -6,7 +6,7 @@ import pdb
 import time as t
 import spin_chain
 # Here I play with optimization 
-Nqubits = 2 # number of qubits
+Nqubits = 5 # number of qubits
 sp = spin_chain.Spin_chain(Nqubits) # initialize the class
 
 G = GRAPE.GRAPE()

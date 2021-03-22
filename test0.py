@@ -4,11 +4,11 @@ import GRAPE
 import scipy.linalg as la
 import pdb
 import matplotlib as mpl
-from pylab import *
-from qutip import *
+#from pylab import *
+#from qutip import *
 from matplotlib import cm
 import imageio
-
+'''
 def animate_bloch(states,number, duration=0.1, save_all=True):
 
     b = Bloch()
@@ -41,7 +41,7 @@ def animate_bloch(states,number, duration=0.1, save_all=True):
             b.save(filename)
         images.append(imageio.imread(filename))
     imageio.mimsave('bloch_anim%s.gif' %number, images, duration=duration)
-
+'''
 G = GRAPE.GRAPE()
 
 N = 50
